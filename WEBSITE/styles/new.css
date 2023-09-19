@@ -1,0 +1,272 @@
+html{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+}
+div{
+    padding: 20px;
+    margin: 10px;
+}
+.wrapper{
+    margin-left: 1;
+    margin-top: 8;
+    left: 0;
+    top: 95;
+    border: 1px solid #3D0E61;
+    width: 60%;
+    height: 77.7%;
+    border-radius: 10px;
+    position: fixed;
+    /* display: inline-block; */
+    /* float: right; */
+}
+label{
+    margin-left: 20px;    
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    box-sizing: content-box;
+    width: 30%;
+}
+.destination{
+    width: 50%;
+    padding: 2px;
+    border-width: 2px;
+    margin-left: 18%;
+}
+h3{
+    color: #3D0E61;
+    font-size: x-large;
+}
+h4{
+    color: white;
+    font-size: xx-large;
+}
+button{
+    background-color: #3D0E61;
+    color: white;
+    font-size: medium;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+input{
+    height: 30px;
+    width: 180px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.details{
+    color: white;
+    font-size: 50px;
+}
+.wrap2{
+    margin-top: -6px;
+    margin-bottom: 9px;
+    width: 97.85%;
+    height: 225%;
+    border: 1px solid blue;
+    border-radius: 2px;
+    position: static;
+    margin-left: -7px;
+    margin-right: 2px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+#footer{    
+    background-color: white;    
+    color: rgb(39, 26, 26);
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    text-align: center;   
+    position: fixed;     
+    margin: -7;
+    font-size: large;
+    }
+
+    #footer a{
+        text-decoration: none;
+        margin: 10px;
+        
+    }
+
+    #footer li{
+        display: inline-block;
+    }
+    
+    .facebook{
+        padding: 0px;
+        width: 40px;
+        text-decoration: none;
+    }
+    
+    .facebook:hover{
+        opacity: 0.7;
+    }
+    
+    .facebook{
+        color: white;
+    }
+    
+    .whatsapp{
+        padding: 0px;
+        width: 40px;
+        text-decoration: none;
+    }
+    
+    .whatsapp:hover{
+        opacity: 0.7;
+    }
+    
+    .whatsapp{
+        color: white;
+    }
+    
+    .twitter{
+        padding: 0px;
+        width: 40px;
+        text-decoration: none;
+    }
+    
+    .twitter:hover{
+        opacity: 0.7;
+    }
+    
+    .twitter{
+        color: white;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+
+#main-menu{
+    position: static;
+    display: block;
+    height: 100px;
+    width: 101.1%;
+    top: 0;
+    background: #3D0E61;
+    margin: -7;
+    z-index: 9;
+    color: bisque;
+    font-size: xx-large;
+}
+
+#main-menu p{
+    position: fixed;
+    text-align: justify;
+    float: right;
+    top: 10;
+    left: 40;
+    text-justify: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#hamburger-input{
+    display: none;
+    
+}
+#hamburger-menu{
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: none;
+    border-radius: 2px;
+    padding: 0px;
+    margin: 20px;
+    font-family: 'Cabin', Sans-serif;
+    background: linear-gradient(
+        to bottom,
+        white, white 20%,
+        #3D0E61 20%, #3D0E61 40%,
+        white 40%, white 60%,
+        #3D0E61 60%, #3D0E61 80%,
+        white 80%, white 100%
+    );
+
+}
+
+#hamburger-menu #sidebar-menu{
+    visibility: hidden;
+    position: fixed;
+    top: 90px;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #3D0E61;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+#hamburger-menu h3{
+    color: #B9FAF8;
+    font-size: 2.2rem;
+}
+
+#hamburger-menu ul{
+    padding-left: 0px;
+}
+
+#hamburger-menu li{
+    list-style-type: none;
+    line-height: 3rem;
+}
+
+#hamburger-menu a{
+    color: #B9FAF8;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+#hamburger-menu a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu{
+    visibility: visible;
+    right: 0;
+}
+
+#hamburger-input:checked ~ .overlay{
+    visibility: visible;
+    opacity: 0.4;
+    margin: -5;
+}
+
+@media screen and (max-width: 750px){
+    #main-menu{
+        display: none;
+    }
+    #hamburger-menu{
+        display: inline;
+    }
+}

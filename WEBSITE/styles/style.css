@@ -1,0 +1,162 @@
+html,body{
+    height: 100%;  
+    width: 100%;  
+    text-align: center;         /* make sure IE centers the page too */
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    position: fixed;
+}
+
+label{
+    
+    margin-left: 5px;
+}
+
+#content {
+    width: 100%;  
+    background-color: rgb(221, 210, 210);
+    border: 1px solid #000;
+    float: left;
+    border-radius: 10px;
+    font-family: Arial;
+    padding: 20px 30px;
+    text-align: left;/* fill up the entire div */
+    display: block;
+    
+}
+
+.panel {
+    
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  }
+  .panel-default {
+     
+    border-color: #ddd;
+  }
+
+#footer{        
+background-color: white;
+color: rgb(39, 26, 26);
+width: 100%;
+padding: 20px;
+height: 100%;  
+position: sticky;     
+text-decoration: none;
+}
+
+    #footer a{
+        text-decoration: none;
+        
+    }
+
+    #footer li{
+        display: inline-block;
+        text-indent: -38%;
+    }
+
+.facebook{
+    padding: 0px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.facebook:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.facebook{
+    color: white;
+}
+
+.whatsapp{
+    padding: 0px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.whatsapp:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.whatsapp{
+    color: white;
+}
+
+.twitter{
+    padding: 0px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.twitter:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.twitter{
+    color: white;
+}
+#wrapper {
+    width: 900px;
+    margin: 0 auto;/* center the page */
+    display: block;
+}
+
+div form
+{
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+  }
+.form-control{
+    display: block;
+    width: 60%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-left: 4px 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+         -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.button
+    {
+        margin-left:5px; 
+        color: #ad1515;padding: 11px;
+        margin-top: 5px;border: 1px solid #efefef;
+        border-radius: 5px; background-color: rgb(189, 186, 186); font-weight: bold 
+    }
+
+    .button:hover 
+    {
+        background-color: rgb(228, 234, 235);
+    }
+
+    button:hover{
+        background-color: rgb(70, 141, 141);
+        cursor: pointer;
+    }
+
